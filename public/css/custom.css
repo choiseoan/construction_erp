@@ -1,0 +1,368 @@
+/*
+    이 파일은 부트스트랩 오버라이드 이외에, 사용에 의해 생성한 내용을 작성합니다.
+    부트스트랩 기본 설정 오버라이드 관련 내용은 public.css 파일에 작성합니다. 
+*/
+
+/* 프로필 사진 크기 조정 (입력 Form) */
+.profile_img_canvas {
+    width: 70%;
+    height: 80%;
+    margin: 0px auto;
+    border: 1px solid #CCC;
+    display: block;
+}
+
+/* inputbox포함 테이블용 추가 */
+.table-input th,.table-input td{
+    padding:0.1rem;
+    border: 2px solid #ffffff;
+    vertical-align: middle;
+}
+.table-input th{
+    padding-left:0.5rem;
+    background-color: #f4f6f9;
+    font-weight: 100;
+}
+
+.table-sum td{
+    padding: 0.5rem;
+}
+
+/* 상태 별 색상 */
+.status-text-a {
+    color: #53a6ff !important;
+}
+.status-text-b {
+    color: #d54062 !important;
+}
+.status-text-c {
+    color: #799351 !important;
+}
+.status-text-d {
+    color: #ba7967 !important;
+}
+.status-text-e {
+    color: #6c757d !important;
+}
+.status-text-s {
+    color: #8a0077 !important;
+}
+.status-text-m {
+    color: #5a0000 !important;
+}
+.status-text-n {
+    color: #999999 !important;
+}
+.status-text-p {
+    color: #61d414 !important;
+}
+.status-bg-a {
+    background-color: #53a6ff !important;
+    color: #ffffff !important;
+}
+.status-bg-b {
+    background-color: #d54062 !important;
+    color: #ffffff !important;
+}
+.status-bg-c {
+    background-color: #799351 !important;
+    color: #ffffff !important;
+}
+.status-bg-d {
+    background-color: #ba7967 !important;
+    color: #ffffff !important;
+}
+.status-bg-e {
+    background-color: #6c757d !important;
+    color: #ffffff !important;
+}
+.status-bg-s {
+    background-color: #8a0077 !important;
+    color: #ffffff !important;
+}
+.status-bg-m {
+    background-color: #5a0000 !important;
+    color: #ffffff !important;
+}
+.status-bg-n {
+    background-color: #999999 !important;
+    color: #ffffff !important;
+}
+
+.weekend {
+    color : red;
+}
+
+/* 고객정보창 계약정보 navbar 모양 */
+.nav-pills .nav-loan-detail.active,
+.nav-pills .show > .nav-cont.-detail {
+    color: #fff;
+    background-color: #6c757d;
+}
+.nav-pills > .nav-loan-detail {
+    margin: 2px !important;
+    padding: 0.3rem 0.8rem !important;
+}
+.loan-info-table th {
+    background: #f4f6f9;
+}
+
+/* sms modal */
+.modal-content-sms {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 75%;
+    pointer-events: auto;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 0.3rem;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.5);
+    outline: 0;
+}
+
+.hand {
+    cursor: pointer;
+}
+
+.outline-none {
+    outline: none;
+}
+
+
+.text-awesome {
+    animation: color-change 2s infinite;
+}
+@keyframes color-change {
+    0% {
+    color: blue;
+  }
+  10% {
+    color: #8e44ad;
+  }
+  20% {
+    color: #1abc9c;
+  }
+  30% {
+    color: #d35400;
+  }
+  40% {
+    color: blue;
+  }
+  50% {
+    color: #34495e;
+  }
+  60% {
+    color: blue;
+  }
+  70% {
+    color: #2980b9;
+  }
+  80% {
+    color: #f1c40f;
+  }
+  90% {
+    color: #2980b9;
+  }
+  100% {
+    color: pink;
+  }
+}
+
+
+/* 고객정보창 프레임 고정 */
+#left_top_pannel {
+    position:fixed;
+    left:5px;
+    top:0px;
+    bottom:108px;
+    overflow:auto;
+}
+#right_top_pannel {
+    position:fixed;
+    right:2px;
+    top:0px;
+    bottom:108px;
+    overflow:auto;
+}
+#bottom_pannel {
+    position:absolute;
+    bottom:0;
+}
+
+.border-0 {
+    border:0px;
+}
+
+.bg-white{
+    background-color: #f4f6f9;
+}
+
+#shortTable td, #shortTable td {
+    padding: 1px;
+    vertical-align: middle;    
+    text-align: center;    
+}
+#shortTable th, #shortTable th {
+    padding: 1px;
+    border-bottom: 1px solid #dee2e6;
+    vertical-align: middle;   
+    text-align: center; 
+    background: #f4f6f9;
+}
+
+#loanInfoTradeTable td, #loanInfoLogTable td {
+    padding: 1px;
+    vertical-align: middle;        
+}
+#loanInfoTradeTable th, #loanInfoLogTable th {
+    padding: 1px;
+    border-bottom: 1px solid #dee2e6;
+    vertical-align: middle;    
+}
+#nsfPopTable {
+    font-size:0.8rem;
+}
+#nsfPopTable td, #nsfPopTable td {
+    padding: 3px;
+    vertical-align: middle;  
+    text-align: center;    
+}
+#nsfPopTable th, #nsfPopTable th {
+    padding: 3px;
+    vertical-align: middle;
+    background: #f0f1f3;
+    text-align: center;
+}
+
+
+.rightline { border-right: 1px solid #DEE2E6 }
+.underline { border-bottom: 1px solid #DEE2E6 }
+
+.text-xxs {
+    font-size: 0.675rem !important;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.toasts-ups-memo {
+    bottom: 97px;
+    position: absolute;
+    right: 0;
+    z-index: 1040;
+    position: fixed;
+  }
+
+.text-blue { color:blue }
+
+.table-th{
+    background-color: #f4f6f9;
+    font-weight: 100;
+    padding: 0.1rem;
+    border: 2px solid #ffffff;
+    vertical-align: middle;
+}
+.text-black { color:black }
+
+.block .table > thead > tr, .bg-header {
+    background-color: #F3F3F3;
+}
+
+/* 맵 아이콘*/
+.map-n { cursor: pointer; font-weight: 700; border:1px solid rgb(1, 87, 1); background-color:rgb(3, 158, 3); color:white; }
+.map-k { cursor: pointer; font-weight: 700; border:1px solid rgb(182, 182, 3); background-color:yellow; color:black; }
+
+.modal-dialog.modal-xxl { 
+    width: 80%; 
+    height: 100%; 
+    max-width: 1600px;
+}
+
+.bg-light-grey{
+    background-color:#e7e6f152 !important;
+}
+
+.bg-pastel-red {
+    background-color:#fff4f4;
+}
+
+/*
+* 페이지 인쇄
+* 
+* searchArea = 인쇄시 보여주지 않을 영역
+* headerArea = 머릿말
+* printArea = 인쇄할 영역
+*/
+@media print{
+    #searchArea{
+        display:none
+    }
+    #headerArea{
+        display:block !important;
+        text-align: center;
+    }
+    #printArea{
+        margin:0;
+        padding:0;
+    }
+    .page {
+        overflow:hidden;
+        position:relative;
+        width:210mm;
+        height:297mm;
+        height:calc(297mm - 1px);
+        page-break-before: always;
+    }
+}
+
+
+
+.audio-simple audio { 
+width: 140px; 
+}
+
+
+.audio-simple audio::-webkit-media-controls-panel{
+    background-color:rgb(230, 230, 230) !important;
+    }
+
+/* 웹팩스 tif 미리보기 */
+.preview canvas 
+{
+    max-width: 100%;
+    border: 1px solid #dee2e6;
+}
+
+.border-right-dark
+{
+    border-right:1px solid #000;
+}
+.border-top-dark
+{
+    border-top: 1px solid #000;
+}
+.border-bottom-dark
+{
+    border-bottom: 1px solid #000;
+}
+.table-xs th,
+.table-xs td {
+  padding: 0.2rem;
+}
+
+.bold { font-weight:700 }
+
+
+.nav-link-p0 {
+    display: block;
+    padding: 0.5rem 0.5rem;
+    border: 1px solid transparent;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+  }
+  
